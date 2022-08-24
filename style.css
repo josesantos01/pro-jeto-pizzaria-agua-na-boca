@@ -8,19 +8,26 @@ body{
    background: url(imagens/img.apresentacao.jfif);
    background-repeat: no-repeat;
    background-position: center;
-   background-size: 100% 100%;
+   background-size: cover;
+   background-attachment: fixed;
 }
 header{
+    height: 120px;
     font-size: 20px;
    padding-bottom: 3px;
     font-family: DynaPuff;
     text-align: center;
-    border-radius:0px 0px 100px 100px;
-    padding-top: 20px;
+    padding-top: 10px;
     margin: 0px;
-    background-color:darkgoldenrod ;
+    background-image: linear-gradient(to top, #75320C, #FF6E1A, #F26818, #753E1E, #C25313);
+   
 }
-#s1>img{
+nav{
+    border-radius:0px 0px 100px 100px;
+    height: 20px;
+    background-color: #75320C;
+}
+section>img{
     border-radius: 5px;
     margin-left: 5px;
    height: 425px;
@@ -28,7 +35,10 @@ header{
   
    
 }
-#pros{
+.esquerda{
+    text-align:right;
+}
+h2{
     text-shadow: 2px 3px black;
     color:darkgoldenrod ;
     font-size: 40px;
